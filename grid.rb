@@ -19,7 +19,7 @@ class Grid
     end
   end
 
-  def configure cells
+  def configure_cells
     each_cell do |cell|
       row, col = cell.row, cell.column
 
